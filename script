@@ -70,7 +70,6 @@ async function createWidget() {
   let time = lw.addText("Uppdaterad: " + hour + ":" + min);
   time.centerAlignText();
   time.font = Font.lightSystemFont(8);
-  time.textColor = new Color(TEKSTFARGE);
 
   // Return the created widget
   return lw;
