@@ -1,5 +1,5 @@
 # Scriptable Postnord Widget När kommer posten
-Ett script för scriptable på IOS för att visa vilkn dag posten kommer om man har varannandags utdelning.
+Ett script för scriptable på IOS för att visa vilken dag posten kommer om man har varannandags utdelning.
 
 <p align="center" >
     <img width="300" alt="scriptable calendar" src ="https://github.com/nanab/postnord_scriptable/blob/main/idag.jpg">
@@ -10,7 +10,7 @@ Ett script för scriptable på IOS för att visa vilkn dag posten kommer om man 
 ## Instruktioner
 
 
-- Kopiera skriptet under [Code](#Code) sektionen til lett nytt skript i scriptable.
+- Kopiera skriptet under [Code](#Code) sektionen till ett nytt skript i scriptable.
 - Lägg till ett medium size Scriptable widget på hemskärmen.
 - Långtryck på widgeten och välj "Edit Widget".
 - Välj ditt script.
@@ -51,13 +51,13 @@ async function createWidget() {
   headStack.centerAlignText();
   lw.addSpacer(10);
   
-  // Skapadatum och sätt tid för nästa uppdatering, tidigast 30 min in på nästa dag.
+  // Skapadatum och sätt tid för nästa uppdatering, tidigast klocakn 05:00 nästa dag.
   var d = new Date();
   datenowday = d.getDate().toString(); //dagensdatum
   d.setDate(d.getDate() + 1);
   dateTomorrow = d.getDate().toString(); //datum imorgon
-  d.setHours(0);
-  d.setMinutes(30);
+  d.setHours(5);
+  d.setMinutes(00);
   lw.refreshAfterDate = d;
 
   //läs ut datum delivery
