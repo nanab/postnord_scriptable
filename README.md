@@ -1,8 +1,8 @@
 # Scriptable Postnord Widget När kommer posten
-Ett script för scriptable på IOS för att visa vilkem dag posten kommer om man har varannandagsutdelning.
+Ett script för scriptable på IOS för att visa vilkn dag posten kommer om man har varannandags utdelning.
 
 <p align="center" >
-    
+    <img width="500" alt="scriptable calendar" src ="https://github.com/nanab/postnord_scriptable/blob/main/idag.jpg">
 </p>
 
 ## Instruktioner
