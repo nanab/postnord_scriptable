@@ -35,7 +35,8 @@ async function createWidget() {
   lw.refreshAfterDate = d;
 
   //läs ut datum delivery
-  const deliveryDate = delivery.slice(0, 2);
+  let deliveryDate = delivery.slice(0, 2);
+  deliveryDate = deliveryDate.trim();
   let deliveryText;
   let deliveryColor;
   if (deliveryDate == datenowday) {
