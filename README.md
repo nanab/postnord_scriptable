@@ -2,7 +2,9 @@
 Ett script för scriptable på IOS för att visa vilkn dag posten kommer om man har varannandags utdelning.
 
 <p align="center" >
-    <img width="500" alt="scriptable calendar" src ="https://github.com/nanab/postnord_scriptable/blob/main/idag.jpg">
+    <img width="300" alt="scriptable calendar" src ="https://github.com/nanab/postnord_scriptable/blob/main/idag.jpg">
+    <img width="300" alt="scriptable calendar" src ="https://github.com/nanab/postnord_scriptable/blob/main/imorgon.jpg">
+    <img width="300" alt="scriptable calendar" src ="https://github.com/nanab/postnord_scriptable/blob/main/sen.jpg">
 </p>
 
 ## Instruktioner
