@@ -1,4 +1,5 @@
 # Scriptable Postnord Widget När kommer posten
+Ett script för scriptable på IOS för att visa vilkem dag posten kommer om man har varannandagsutdelning.
 
 <p align="center" >
     
